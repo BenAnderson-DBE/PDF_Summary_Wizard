@@ -363,7 +363,7 @@ class GeneratingScreenshots(tk.Frame):
 
     def finish(self):
         file = self.controller.selected_file.get()
-        messagebox.showinfo("Summary generated", f"Input file {file}\nOutput file: {self.controller.state_dict['chosen_file'].split('.pdf')[0] + "_summary.pdf"}")
+        messagebox.showinfo("Summary generated", f"Input file {file}\nOutput file: {self.controller.state_dict['chosen_file'].split('.pdf')[0]}_summary.pdf"}")
         self.controller.destroy()
 
     def generate_output(self):
