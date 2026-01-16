@@ -6,7 +6,6 @@ on:
 
 jobs:
   build-windows:
-    permissions: write-all
     runs-on: windows-2025
     steps:
       - name: Checkout
