@@ -494,8 +494,8 @@ class GeneratingScreenshots(tk.Frame):
                 # new_page.draw_rect(r, color=[1,1,1], fill=[1,1,1])
 
                 new_page.insert_text((36, min(screenshot.height + 20, new_page.mediabox[3] - 96)), f"{page_label}, image {image_number} of {len(screenshot_dict.keys())}")
-                new_page.insert_text((36, min(screenshot.height + 40, new_page.mediabox[3] - 76)), f"Annotation author: {", ".join(screenshot_dict[screenshot]["authors"])}")
-                new_page.insert_text((36, min(screenshot.height + 60, new_page.mediabox[3] - 56)), f"Annotation date: {screenshot_dict[screenshot]["last_modified"].strftime("%Y-%m-%d")}")
+                new_page.insert_text((36, min(screenshot.height + 40, new_page.mediabox[3] - 76)), f"Annotation author: {', '.join(screenshot_dict[screenshot]['authors'])}")
+                new_page.insert_text((36, min(screenshot.height + 60, new_page.mediabox[3] - 56)), f"Annotation date: {screenshot_dict[screenshot]['last_modified'].strftime('%Y-%m-%d')}")
 
         output.save(self.controller.state_dict['chosen_file'].split(".pdf")[0] + "_summary.pdf")
 
