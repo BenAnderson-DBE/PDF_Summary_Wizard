@@ -499,7 +499,6 @@ class GeneratingScreenshots(tk.Frame):
 
         output.save(self.controller.state_dict['chosen_file'].split(".pdf")[0] + "_summary.pdf")
 
-
 # --- Page 2: Processing Options ---
 class ProcessingOptionsPage(tk.Frame):
     def __init__(self, parent, controller):
