@@ -1,0 +1,33 @@
+Could you automate a screenshot (or similar) output of all of the notes made on this file?  Not necessarily asking you to create a program, but let’s start with a few hours to think about what’s possible here.
+
+ 
+
+The Jamis timesheets job is GGL 2025 Electrical & Mechanical Consulting-1375-0001-001-001.
+
+ 
+
+Other work can certainly take priority.  Not trying to take you away from anything else…
+
+ 
+
+Thanks and have fun with it!
+
+Matt
+
+206-934-9508
+
+Part 2:
+
+I'd like to clean up the page layout a bit. Occasionally the image annotations wind up on top of the image itself making the text hard to read -> (understood)
+
+Add a better way to show where the screenshot is coming from. First thought is a context window in the corner showing which part of the full page is being highlighted right. (There is a function in Bluebeam that uses the same approach, batch labeling pages.  Let me know if it’s helpful for me to show you what I mean.)
+
+Could add the ability to filter which annotations get included in the summary? Could filter by author, annotation color, annotation date for example
+ - Right, I frequently filter by author, filter out highlights, etc.
+
+Get the table of contents on the PDF working 
+ - I don’t know if this needs to be a top priority.  Two of my uses of this are:
+   - When an E1 does a review of a project, they can quickly flip through this type of document to show me what they found.
+   - When my team finds things we want to share broadly within DB, this could replace the need to create a slide deck to easily share visuals.
+   - Either way, it’s a single use and then done.  So it’s really nice to have, but only if it’s also really easy to create.
+
