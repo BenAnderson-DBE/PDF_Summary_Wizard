@@ -4,7 +4,7 @@ on:
   push:
    branches: release
    tags:
-    - "v*" # Trigger when a version tab is pushed
+    - "v*" # Trigger when a version tag is pushed (e.g., v1.0.0)
 
 jobs:
   build-windows:
