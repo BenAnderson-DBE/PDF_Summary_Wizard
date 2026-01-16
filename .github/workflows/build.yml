@@ -3,6 +3,8 @@ name: Build Workflow
 on:
   push:
    branches: release
+   tags:
+    - "v*" # Trigger when a version tab is pushed
 
 jobs:
   build-windows:
